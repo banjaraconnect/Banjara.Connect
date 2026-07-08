@@ -45,6 +45,7 @@ We're building a platform where **ideas become products, creativity becomes busi
 
 **The Future Starts Here.**
 
-**Banjara Connect#
+**Banjara Connect**
 
-Founder-Kanchan Singh & D Rathik
+##Founder
+-Kanchan Singh & D Rathik-
