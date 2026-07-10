@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Checkout | Banjara Connect</title>
+
+<link rel="stylesheet" href="checkout.css">
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">Banjara Connect</div>
+
+<nav>
+<a href="index.html">🏠 Home</a>
+<a href="shop.html">🛍 Shop</a>
+<a href="cart.html">🛒 Cart</a>
+</nav>
+
+</header>
+
+<section class="checkout">
+
+<h1>Checkout</h1>
+
+<form>
+
+<label>Full Name</label>
+<input type="text" placeholder="Enter Your Name" required>
+
+<label>Mobile Number</label>
+<input type="tel" placeholder="Enter Mobile Number" required>
+
+<label>Email</label>
+<input type="email" placeholder="Enter Email">
+
+<label>Address</label>
+<textarea placeholder="Full Address" required></textarea>
+
+<label>State</label>
+<input type="text" placeholder="State">
+
+<label>City</label>
+<input type="text" placeholder="City">
+
+<label>PIN Code</label>
+<input type="number" placeholder="PIN Code">
+
+<label>Payment Method</label>
+
+<select>
+
+<option>Cash on Delivery</option>
+
+<option>UPI</option>
+
+<option>Razorpay (Coming Soon)</option>
+
+</select>
+
+<div class="order-summary">
+
+<h2>Order Summary</h2>
+
+<p>Product Total : ₹499</p>
+
+<p>Delivery : ₹50</p>
+
+<h3>Total : ₹549</h3>
+
+</div>
+
+<button type="submit">
+Place Order
+</button>
+
+</form>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

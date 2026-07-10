@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Sign Up | Banjara Connect</title>
+
+<link rel="stylesheet" href="signup.css">
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+Banjara Connect
+</div>
+
+<nav>
+
+<a href="index.html">🏠 Home</a>
+
+<a href="shop.html">🛍 Shop</a>
+
+<a href="cart.html">🛒 Cart</a>
+
+<a href="login.html">🔑 Login</a>
+
+</nav>
+
+</header>
+
+<section class="signup-container">
+
+<div class="signup-box">
+
+<h1>Create Account</h1>
+
+<p>Join Banjara Connect Today</p>
+
+<form id="signupForm">
+
+<label>Full Name</label>
+<input type="text" id="name" placeholder="Enter Full Name" required>
+
+<label>Email</label>
+<input type="email" id="email" placeholder="Enter Email" required>
+
+<label>Mobile Number</label>
+<input type="tel" id="mobile" placeholder="Enter Mobile Number" required>
+
+<label>Password</label>
+<input type="password" id="password" placeholder="Create Password" required>
+
+<label>Confirm Password</label>
+<input type="password" id="confirmPassword" placeholder="Confirm Password" required>
+
+<button type="submit">
+Create Account
+</button>
+
+</form>
+
+<p class="login-link">
+
+Already have an account?
+
+<a href="login.html">
+
+Login
+
+</a>
+
+</p>
+
+</div>
+
+</section>
+
+<script src="script.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
+
+<script src="js/firebase.js"></script>
+</body>
+
+</html>
